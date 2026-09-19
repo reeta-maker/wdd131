@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn about Nepal, its geography, culture, and weather.">
+        <meta name="author" content="Reeta Pun">
+        <title>Nepal Country Page</title>
+        <link rel="stylesheet" href="styles/place.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Nepal</h1>
+        </header>
+        <main>
+            <!--Hero Image-->
+            <section class="hero">
+                <picture>
+                    <source
+                    media="(max-width:600px)"
+                    srcset="images/nepal-small.webp">
+                    <img src="images/nepal-large.webp"
+                    alt="Beautiful Himalayan mountains in Nepal"
+                    width="1200"
+                    height="600">
+                </picture>
+            </section>
+            <!--Data Section-->
+            <section class="data">
+                <h2>Data</h2>
+                <div class="data-list">
+                    <p>
+                        <strong>Area:</strong>
+                        <span> 147,516 sq km</span>
+                    </p>
+                    <p>
+                        <strong>Population:</strong>
+                        <span> About 30 million</span>
+                    </p>
+                    <p>
+                        <strong>Capital:</strong>
+                        <span> Kathmandu</span>
+                    </p>
+                    <p>
+                        <strong>Language:</strong>
+                        <span> Nepali</span>
+                    </p>
+                    <p>
+                        <strong>Currency:</strong>
+                        <span> Nepalese Rupee (NPR)</span>
+                    </p>
+                    <p>
+                        <strong>Time Zone:</strong>
+                        <span> UTC+5:45</span>
+                    </p>
+                    <p>
+                        <strong>Calling Code:</strong>
+                        <span> +977</span>
+                    </p>
+                    <p>
+                        <strong>"Internet TLD":</strong>
+                        <span> .np</span>
+                    </p>
+                </div>
+            </section>
+            <!--Weather Section-->
+            <section class="weather">
+                <h2>Weather</h2>
+                <img
+                class="weather-svg"
+                src="images/weather.svg"
+                alt="Partly cloudy weather icon"
+                width="80"
+                height="80">
+                <div class="weather-list">
+                    <p>
+                        <strong>Temperature:</strong>
+                        <span> 10°C</span>
+                    </p>
+                    <p>
+                        <strong>Condition:</strong>
+                        <span> Partly Cloudy</span>
+                    </p>
+                    <p>
+                        <strong>Wind Chill:</strong>
+                        <span id="wind-chill">N/A</span>
+                    </p>
+                    <p>
+                        <strong>Wind:</strong>
+                        <span> 5 km/h</span>
+                    </p>
+            </section>
+        </div>
+                </main>
+                <!--Footer-->
+                <footer>
+                    <p>©️<span id="currentyear"></span> ❤️ Reeta Pun ❤️ Nepal</p>
+                    <p>Last Modification: <span id="lastModified"></span></p>
+                </footer>
+    </body>
+</html>
