@@ -1,0 +1,108 @@
+        :root {
+            --pink: #E8A0BF;
+            --navy: #26354A;
+            --cream: #FFF8F0;
+            --white: #FFFFFF;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Open Sans", sans-serif;
+            background-color: var(--cream);
+            color: var(--navy);
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        header {
+            background-color: var(--navy);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+        }
+        
+        header p {
+            margin-bottom: 0;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        section {
+            background-color: var(--white);
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-left: 6px solid var(--pink);
+            border-radius: 8px;
+        }
+        
+        h2 {
+            font-family: "Poppins", sans-serif;
+            color: var(--navy);
+        }
+        
+        h3 {
+            color: var(--navy);
+        }
+
+        .heading-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .heading-open-sans {
+            font-family: "Open Sans", sans-serif;
+        }
+        
+        .color-box {
+            display: inline-block;
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        
+        .pink {
+            background-color: var(--pink);
+        }
+        
+        .navy {
+            background-color: var(--navy);
+            color: var(--white);
+        }
+        
+        .cream {
+            background-color: var(--cream);
+            border: 1px solid var(--navy);
+        }
+        
+        .wireframe {
+            background-color: var(--cream);
+            border: 2px solid var(--navy);
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        
+        .wire-box {
+            border: 2px solid var(--pink);
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background-color: var(--white);
+        }
+        
+        footer {
+            background-color: var(--navy);
+            color: var(--white);
+            text-align: center;
+            padding: 1rem;
+            }
