@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Choose your favorite Japanese season and activity and save your choice on the Seasons of Japan website.">
+<meta name="author" content="Reeta Pun">
+
+<title>Seasons of Japan | Favorites</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<a class="logo" href="index.html">🌸 Seasons of Japan</a>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="activities.html">Activities</a>
+<a href="favorites.html">Favorites</a>
+</nav>
+</header>
+
+<main>
+
+<section class="page-intro">
+<p class="eyebrow">Make It Personal</p>
+<h1>Choose Your Favorite</h1>
+<p>
+Tell us which season and activity you would most like to enjoy
+in Japan.
+</p>
+</section>
+
+<section class="favorite-form-section">
+
+<form id="favorite-form">
+
+<label for="visitor-name">Your Name</label>
+<input
+type="text"
+id="visitor-name"
+name="visitor-name"
+required
+autocomplete="name"
+>
+
+<label for="season">Favorite Season</label>
+<select id="season" name="season" required>
+<option value="">-- Choose a season --</option>
+<option value="Spring">Spring 🌸</option>
+<option value="Summer">Summer ☀️</option>
+<option value="Autumn">Autumn 🍁</option>
+<option value="Winter">Winter ❄️</option>
+</select>
+
+<label for="activity">Favorite Activity</label>
+<select id="activity" name="activity" required>
+<option value="">-- Choose an activity --</option>
+<option value="Cherry blossom viewing">Cherry blossom viewing</option>
+<option value="Summer festivals">Summer festivals</option>
+<option value="Autumn leaf viewing">Autumn leaf viewing</option>
+<option value="Winter illuminations">Winter illuminations</option>
+</select>
+
+<button type="submit" class="button">
+Save My Favorite
+</button>
+
+</form>
+
+<div id="favorite-message" class="favorite-message" aria-live="polite"></div>
+
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 Seasons of Japan | WDD131 Project</p>
+<a href="references.html">References</a>
+</footer>
+
+</body>
+</html>
